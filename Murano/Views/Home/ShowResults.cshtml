@@ -1,0 +1,17 @@
+﻿<br />
+
+@{ Html.RenderPartial("Index"); }
+
+<ul>
+    @if (Model.Result != null)
+    {
+        foreach (var item in Model.Result)
+        {
+            <li style="width:500px">
+                <a href="@item.Link" style="color:blue">@item.Name</a><br />
+                <span style="font-size:15px;color:green">@item.Link</span><br />
+                <span style="color:gray;">@item.Snippet</span>
+            </li>
+        }
+    }
+</ul>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Murano", "Murano\Murano.csproj", "{EBEB1EE4-BEA6-40EB-852C-916A7FFF8C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{167233D6-65DD-4659-8CD7-1A304133D6C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBEB1EE4-BEA6-40EB-852C-916A7FFF8C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEB1EE4-BEA6-40EB-852C-916A7FFF8C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEB1EE4-BEA6-40EB-852C-916A7FFF8C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEB1EE4-BEA6-40EB-852C-916A7FFF8C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167233D6-65DD-4659-8CD7-1A304133D6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167233D6-65DD-4659-8CD7-1A304133D6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167233D6-65DD-4659-8CD7-1A304133D6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167233D6-65DD-4659-8CD7-1A304133D6C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649D3989-C366-43E5-B22B-C839CD3D062A}
+	EndGlobalSection
+EndGlobal
